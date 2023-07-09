@@ -25,16 +25,17 @@ jobs:
         run: java -version
         
       - name: Step 4 - Compiling shw.java source code 
-        run: javac .github/workflows/shw.java
+        run: javac .github/shw.java
         
       - name: Step 5 - Listing Files 
         run: ls -ltr
       
       - name: Step 6 - Executing shw.java source code 
-        run: java .github/workflows/shw.java
+        run: java .github/shw.java
           
       - name: Step 7 - List Ubuntu Environment Variables
         run: env
         
       - name: Step 8 - Run a echo script
-        run: .github/workflows/echo.sh
+        run: sh .github/echo.sh
+        shell: bash
