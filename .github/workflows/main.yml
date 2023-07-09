@@ -25,7 +25,7 @@ jobs:
         run: java -version
         
       - name: Step 4 - Compiling shw.java source code 
-        run: javac .github/shw
+        run: javac .github/shw.java
         
       - name: Step 5 - Listing Files 
         run: ls -ltr
