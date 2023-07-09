@@ -36,6 +36,6 @@ jobs:
       - name: Step 7 - List Ubuntu Environment Variables
         run: env
         
-      - name: Step 8 - Run a echo script
+      - name: Step 8 - Run a shell script
         run: sh .github/echo.sh
         shell: bash
