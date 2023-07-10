@@ -31,7 +31,7 @@ jobs:
         run: ls -ltr
       
       - name: Step 6 - Executing shw.java source code 
-        run: java /home/runner/work/.github/shw
+        run: java .github/shw.java
           
       - name: Step 7 - List Ubuntu Environment Variables
         run: env
